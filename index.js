@@ -72,7 +72,7 @@ module.exports = function mongoIndexHook(sails) {
   return {
     defaults: {
       __configKey__: {
-        _hookTimeout: 30000
+        _hookTimeout: 120000
       }
     },
     initialize: function (cb) {
