@@ -1,5 +1,3 @@
-const async = require('async');
-
 module.exports = function mongoIndexHook(sails) {
   
   function getIndexes() {
@@ -32,15 +30,15 @@ module.exports = function mongoIndexHook(sails) {
   }
   
   async function ensureIndexes(indexes, cb) {
-    for (const index of indexes) {
       try {
-        await ensureIndex(index);
+        await Promise.all(indexes.map((index) => ensureIndex(index)));
       }
       catch (error) {
         console.error(error.message);
       }
-    }
-    if (cb) cb();
+      finally {
+        if (cb) cb();
+      }
   }
   
   function ensureIndex(index) {
