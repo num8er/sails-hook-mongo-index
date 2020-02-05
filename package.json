@@ -1,0 +1,12 @@
+{
+  "name": "sails-hook-mongo-index",
+  "version": "1.0.0",
+  "description": "SailsJS hook which ensures that indexes created for mongodb models/collections",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anar K. Jafarov <anar.k.jafarov@gmail.com>",
+  "license": "ISC",
+  "repository": "https://github.com/num8er/sails-hook-mongo-index"
+}
