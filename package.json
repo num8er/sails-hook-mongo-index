@@ -6,7 +6,21 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Anar K. Jafarov <anar.k.jafarov@gmail.com>",
+  "author": "Anar K. Jafarov <anar.k.jafarov@gmail.com> (http://anarjafarov.me)",
   "license": "ISC",
-  "repository": "https://github.com/num8er/sails-hook-mongo-index"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/num8er/sails-hook-mongo-index.git"
+  },
+  "keywords": [
+    "sails",
+    "sailsjs",
+    "hook",
+    "mongo",
+    "mongodb",
+    "sails-hook",
+    "index",
+    "auto",
+    "auto-index"
+  ]
 }
