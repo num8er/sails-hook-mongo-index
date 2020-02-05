@@ -1,6 +1,6 @@
 {
   "name": "sails-hook-mongo-index",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "SailsJS hook which ensures that indexes created for mongodb models/collections",
   "main": "index.js",
   "scripts": {
@@ -22,5 +22,8 @@
     "index",
     "auto",
     "auto-index"
-  ]
+  ],
+  "sails": {
+    "isHook": true
+  }
 }
